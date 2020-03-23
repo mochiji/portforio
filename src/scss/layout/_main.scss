@@ -1,0 +1,15 @@
+body {
+  @include mq(u-sp) {
+    width: 640px;
+    height: 2300px;
+    margin: 0 auto;
+  }
+}
+
+.l-wrap {
+  @include mq(u-sp) {
+    background-color: #000;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
